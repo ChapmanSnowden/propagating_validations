@@ -17,7 +17,7 @@ gem 'bcrypt-ruby'
 
 gem 'shotgun'
 
-gem 'Chronic'
+# gem 'chronic'
 
 group :development, :test do
   gem 'faker'
