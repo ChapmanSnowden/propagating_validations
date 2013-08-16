@@ -14,7 +14,7 @@ end
 
 post '/events/create' do
   event = Event.new(organizer_name: params[:organizer_name], organizer_email: params[:organizer_email], title: params[:title], date: params[:date])
-  @event = event #we need to create an instance of the Event class here
+  event.save
   
   redirect '/'
 end
