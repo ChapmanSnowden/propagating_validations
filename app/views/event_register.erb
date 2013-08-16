@@ -1,13 +1,11 @@
-<div>
-  
-</div>
 
-<div>
-  <form action='/events/create' method='post'>
-    <input type='text' name='organizer_name' placeholder="Enter Your Name"><br>
-    <input type='text' name='organizer_email' placeholder="e.g. organizer@event.com"><br>
-    <input type='text' name='title' placeholder="Name of Event"><br>
-    <input type='date' name='date' placeholder="Date of Event"><br>
-    <input type='submit' value='submit'>
-  </form>
-</div>
+<h1>Create Your Event!</h1>
+<div id="errors"></div>
+
+<form action='/events/create' method='post'>
+  <input type='text' name='organizer_name' placeholder="Enter Your Name"><br>
+  <input type='text' name='organizer_email' placeholder="e.g. organizer@event.com"><br>
+  <input type='text' name='title' placeholder="Name of Event"><br>
+  <input type='date' name='date' placeholder="Date of Event"><br>
+  <input type='submit' value='Create Event'>
+</form>
